@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="feedback.css">
+    <script>
+        function validar(){
+            if(document.cad.feed.value == "")
+            {
+                window.alert("Você deve preencher o campo de Feedback!");
+                document.cad.feed.focus();
+                return false;
+            }
+            else
+            {
+                window.alert("Enviado com sucesso!");
+            }
+        }
+    </script>
+</head>
+<body>
+<header>
+    <img src="banner_M.png" alt="">
+</header>    
+    <nav>
+        <a class="n" href="index.html">Página Inicial</a>
+        <a class="n" href="produtos.html">Nossos Produtos</a>
+        <a class="n" href="quemsomos.html">Quem somos</a>
+        <a class="n" href="feedback.html">FeedBack</a>
+    </nav>
+    <div class="container">
+        <h1>FeedBack</h1>
+        <form name="cad">
+            <p>Caso tenha algum comentário ou alguma crítica, por favor, escreva aqui neste espaço:</p>
+           <p>Seu feedback:</p> <br><textarea name="feed" cols="30" rows="5"></textarea><br>
+            <input class="butao" type="submit" value="Enviar o FeedBack" onclick="validar()">
+        </form>
+    </div>
+    <footer>
+        <p>ONDE NÓS ENCONTRAR<br>
+        Rua Minas Gerais 99 - Centro - São Jose da Lapa</p>
+        
+        <a href="https://www.instagram.com/juices_naturais/?igsh=MXF1NngzbzF2bDJkcw%3D%3D#" target="_blank"><img src="i1.png" alt=""></a><p class="pe">@JUICE</p>
+        <a href="WhatsApp_icon.png"><img src="w1.png" alt=""></a><p class="pe">99999999999</p>
+    </footer>
+</body>
+</html>

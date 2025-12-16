@@ -1,0 +1,171 @@
+
+nav{
+    color: antiquewhite;
+    padding: 1%;
+    background-color: #1c6805;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5%;
+    padding: 0.75%;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.2 ease;
+}
+
+nav a:hover{
+    background-color: #68b103;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+header img{
+    width: 100%;
+}
+
+body{
+    background-color: #a4bc6b;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+footer{
+    margin: 2% 0 0 0;
+    background-color: #1c6805;
+    padding: 3%;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 120%;
+}
+
+footer img{
+    width: 2.5%;
+    height: 2.5%;
+    margin: 2% 0 0 28%;
+}
+footer a{
+    text-decoration: none;
+    color:inherit;
+
+}
+.pe{
+    font-size: 110%;
+    display: inline-block;
+    margin-left: 1%;
+}
+.s1 img{
+    height: 50%;
+    width: 10%;
+    float: left;
+    border-radius: 25px;
+    margin: 2% 0 0 10%;
+    border: solid 2px green;
+} 
+.s1 p{
+    margin: 5% 20% 0 25%;
+}
+
+hr{
+    margin-top: 1%;
+}
+
+.s2 img{
+    height: 50%;
+    width: 10%;
+    border-radius: 25px;
+    margin: 2% 0 0 10%;
+    border: solid 2px green;
+} 
+.s2 p{
+    margin: -8% 20% 0 25%;
+}
+.s2 h1{
+    text-align: center;
+    margin: 0.5% 0 0.2% 0;
+    font-size: 200%;
+}
+.p p{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+.a p{
+    margin: -10% 20% -10% 75%;
+    background-color: #1c6805;
+    border-radius: 20px;
+    padding: 2% 4%;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.2 ease;
+    color: white;
+    border: solid 2px #fff;
+}
+
+.a p:hover{
+    background-color: #68b103;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+.a1 p{
+    margin: -10% 20% -10% 75%;
+    background-color: #1c6805;
+    border-radius: 20px;
+    padding: 2% 4%;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.2 ease;
+    color: white;
+    border: solid 2px #fff;
+}
+
+.a1 p:hover{
+    background-color: #68b103;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+.s1{
+    width: 80%;
+    height: 30%;
+    padding: 1% 0 3.5% 2.5%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) brightness(120%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 2% 10%;
+    transition: transform 0.2s ease;
+}
+
+.s1:hover{
+    transform: scale(1.025);
+}
+.s2{
+    width: 80%;
+    height: 30%;
+    padding: 1% 0 5% 2.5%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) brightness(120%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 2% 10%;
+    transition: transform 0.2s ease;
+}
+.s2:hover{
+    transform: scale(1.025);
+}

@@ -1,0 +1,125 @@
+nav{
+    color: antiquewhite;
+    padding: 1%;
+    background-color: #1c6805;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5%;
+    padding: 0.75%;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.2 ease;
+}
+
+nav a:hover{
+    background-color: #68b103;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+p {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0 1%;
+    font-size: 120%;
+}
+
+.sucos img{
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-radius: 25px;
+    margin: 2% 0 0 10%;
+    border: solid 4px green;
+}
+
+.sucos p{
+    margin: 8% 10% 15% 35%;
+    font-size: 120%;
+}
+
+.sucos {
+    width: 80%;
+    height: 20%;
+    padding: 1% 0 0.1% 2.5%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) brightness(120%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 2% 10%;
+    transition: transform 0.2s ease;
+}
+
+.sucos:hover{
+    transform: scale(1.025);
+}
+
+.loja img{
+    height: 15%;
+    width: 18%;
+    float: right;
+    border-radius: 20px;
+    margin: -11% 7.8% 0 0;
+    border: solid 4px green;
+}
+
+.loja {
+    width: 80%;
+    height: 25%;
+    padding: 2.5% 0 8% 2.5%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) brightness(120%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 2% 10%;
+    transition: transform 0.2s ease;
+}
+
+.loja:hover{
+    transform: scale(1.025);
+}
+
+.loja p{
+    margin: 5% 0 0 10%;
+    font-size: 120%;
+}
+
+header img{
+    width: 100%;
+}
+
+body{
+    background-color: #a4bc6b;
+}
+
+footer{
+    margin: 2% 0 0 0;
+    background-color: #1c6805;
+    padding: 3%;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 120%;
+}
+
+footer img{
+    width: 2.5%;
+    height: 2.5%;
+    margin: 2% 0 0 28%;
+}
+footer a{
+    text-decoration: none;
+    color:inherit;
+
+}
+.pe{
+    font-size: 110%;
+    display: inline-block;
+    margin-left: 1%;
+}
